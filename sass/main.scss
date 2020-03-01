@@ -1,0 +1,47 @@
+
+
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+
+@import "projeto/codigo";
+
+@import "components/contact-social";
+@import "components/portfolio";
+@import "components/modal";
+
+@import "base/animations";
+
+
+
+
+*,
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; //10px
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 55%;
+    }
+
+    // @media only screen and (max-width: $bp-medium) {
+    //     font-size: 50%;
+    // }
+
+    // @media only screen and (max-width: $bp-small) {
+    //     font-size: 40%;
+    // }
+   
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif';
+    color: $color-white;    
+}

@@ -1,0 +1,51 @@
+//Component
+.contact-social {
+    width: 100%;
+    height: 100px;
+
+    &__list {
+        display: flex;
+            justify-content: center;
+            // justify-content: flex-start;
+            list-style: none;
+    }
+
+    &__item {
+        margin-left: 20px;
+    }
+
+    &__btn-social {
+            text-decoration: none;
+            padding: 15px 20px;
+            // padding: 10px 15px;
+            border: 3px solid $color-white;
+            border-radius: 50%;
+            display: block;
+            // position: relative;
+            transition: all 0.8s;
+
+        &:hover {
+            background-color: $color-white;
+            border: none;
+            transform: translateY(3px);                        
+        }        
+    }
+
+    &__btn-social:hover &__icon {
+        color: $color-icon;
+    }
+
+    &__icon {
+        font-size: 50px;
+        // font-size: 3.5rem;
+        
+
+        &--secondary {
+            color: $color-icon;
+        }
+
+        &--primary {
+            color: $color-white;
+        }
+    }
+}

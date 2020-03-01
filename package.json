@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-1",
+  "version": "1.0.0",
+  "description": "Meu Portfolio sobre meus projetos de Design Web e Desenvolvedor Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
