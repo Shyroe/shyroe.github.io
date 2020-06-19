@@ -1,4 +1,4 @@
 # shyroe.github.io
-Portfólio Front-End Projects
+Portfolio Front-End Projects
 
-Acessar portfólio: shyroe.github.io
+show portfolio: shyroe.github.io
